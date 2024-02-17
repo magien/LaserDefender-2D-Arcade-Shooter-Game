@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -5799468360301635649}
   - component: {fileID: 7215753843077497955}
   - component: {fileID: -8351368969556853368}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1167919411941860034}
   - component: {fileID: 663241309243208444}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: enemyBlue5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 1752e25bfd3f86a49bef3e31175506e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
