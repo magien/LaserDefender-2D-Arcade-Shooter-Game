@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -14,12 +15,14 @@ public class Health : MonoBehaviour
 
     AudioPlayer audioPlayer;
     ScoreKeeper scoreKeeper;
+    LevelManager levelManager;
 
     private void Awake()
     {
         cameraShake = Camera.main.GetComponent<CameraShake>();
         audioPlayer = FindObjectOfType<AudioPlayer>();
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
+        levelManager = FindObjectOfType<LevelManager>();
 
     }
 
@@ -60,6 +63,8 @@ public class Health : MonoBehaviour
         if (isPlayer)
         {
             scoreKeeper.ResetScore();
+            levelManager.LoadEndMenu();
+            
         }
         Destroy(gameObject);
         
