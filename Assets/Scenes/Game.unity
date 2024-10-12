@@ -155,6 +155,7 @@ MonoBehaviour:
   waveConfigs:
   - {fileID: 11400000, guid: aa2606a076f9350458313533dbedeb7e, type: 2}
   - {fileID: 11400000, guid: 816be2353a0a422479a8d120fb10d517, type: 2}
+  - {fileID: 11400000, guid: c5940309785b5844286b5947bce6319d, type: 2}
   timeBetweenWaves: 0
   isLooping: 1
 --- !u!4 &24896749
@@ -1206,6 +1207,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4201204156726707668, guid: 0e692c9db757cf44dadebc5bc040e84d, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8745173057877499952, guid: 0e692c9db757cf44dadebc5bc040e84d, type: 3}
       propertyPath: m_Name
       value: AudioPlayer
@@ -1274,6 +1279,14 @@ PrefabInstance:
     - target: {fileID: 2004144697335577967, guid: a800b91ef3427e643b09b6f562d2d6f1, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986840362391504724, guid: a800b91ef3427e643b09b6f562d2d6f1, type: 3}
+      propertyPath: moveSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986840362391504724, guid: a800b91ef3427e643b09b6f562d2d6f1, type: 3}
+      propertyPath: paddingUp
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
