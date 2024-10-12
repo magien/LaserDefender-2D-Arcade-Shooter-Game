@@ -62,7 +62,7 @@ public class Health : MonoBehaviour
         }
         if (isPlayer)
         {
-            scoreKeeper.ResetScore();
+           
             levelManager.LoadEndMenu();
             
         }
